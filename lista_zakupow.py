@@ -16,5 +16,7 @@ for x,y in shopping_list.items():
 for x,y in product_price:
     to_pay += y
 
+to_pay = '{:.2f}'.format(to_pay)
+
 print(f'W sumie kupuję {count} produktów.')
 print(f'W sumie płacę {to_pay} PLN.')
